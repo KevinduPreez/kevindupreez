@@ -82,7 +82,7 @@ $(document).ready(function(){
 			$("#programs-container, #jumbotron").css('background-position', '0% ' + parseInt(-x / 12) + 'px');
 		});
    	}else{
-   		$("#programs-container, #jumbotron").css({"background-size": "cover"});
+   		$("#programs-container, #jumbotron, #education").css({"background-size": "cover"});
    	}
 	
 
