@@ -103,7 +103,7 @@ p{
 #programs-container{
 	text-align: center;
 
-	background-image: url("/Users/Kevin/Desktop/website/images/code-coding-computer-574073.jpg"); 
+	background-image: url(https://kevindupreez.github.io/kevindupreez/images/code-coding-computer-574073.jpg); 
 	/*background-size:150%;*/
 	height: 100vh;
 }
@@ -220,6 +220,6 @@ th{
 }
 
 #education{
-	background-image: url("/Users/Kevin/Desktop/website/images/apple-blank-business-442574.jpg");
+	background-image: url(https://kevindupreez.github.io/kevindupreez/images/apple-blank-business-442574.jpg);
 	background-size: cover;
 }
