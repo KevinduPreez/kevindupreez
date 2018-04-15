@@ -1,0 +1,225 @@
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-size: 25px;
+}
+
+#menu {
+	position:fixed;
+	top:0px;
+	background-color:#DDDDDD;
+	color: #FFFFFF;
+	z-index:9999;
+	display: none;
+	margin: 10px;
+	padding:10px;
+	font-size: 20px; important!
+}
+
+#click{
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.sideMenu{
+	padding-left: 0px;
+	display: flex;
+	display: none;
+	list-style-type: none;
+}
+
+.sideMenuB{
+	border:2px solid #43abbe;
+	background-color: rgba(67, 171, 190, 0.1);
+	padding:4px;
+	margin: 5px;
+	font-size: 15px;
+	width: 100px;
+}
+
+.menu-button{
+	border:2px solid #43abbe;
+	background-color: rgba(67, 171, 190, 0.1);
+	padding:4px;
+	margin: 5px;
+	width: 100px;
+	font-size: 18px;
+}
+
+.menu-button:hover{
+	background-color:rgba(67, 171, 190, 0.9);
+}
+
+#button-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#jumbotron{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	text-align: center;
+	background-image: url("/Users/Kevin/Desktop/website/images/titleImage.png");
+	/*background-size: cover;*/
+	height: 100vh;
+}
+
+#jumbo-id{
+	display: none;
+	width: 50%;
+	-webkit-box-shadow: 2px 2px 26px -6px rgba(115,115,115,1);
+	-moz-box-shadow: 2px 2px 26px -6px rgba(115,115,115,1);
+	box-shadow: 2px 2px 26px -6px rgba(115,115,115,1);
+}
+
+/*#about-button, #education-button, #call-button, #judge-button, #skill-button{
+	margin: 5px;
+	width: 100px;
+}*/
+
+#heading-container{
+	background-color: rgba(249, 249, 249, 0.6);
+	padding:20px;
+}
+
+#table-container{
+	display: flex;
+	justify-content: center;
+}
+
+#programs{
+	display: flex;
+	align-items:center;
+	padding:0px 40px 40px 40px;
+}
+
+#programs-container{
+	text-align: center;
+
+	background-image: url("/Users/Kevin/Desktop/website/images/code-coding-computer-574073.jpg"); 
+	/*background-size:150%;*/
+	height: 100vh;
+}
+
+.td{
+	padding:0px 20px 20px 20px;
+}
+
+.title-heading{
+	margin-top: 10px;
+	padding-top: 27px;
+	padding-bottom: 15px;
+}
+
+th{
+	padding-top:20px;
+}
+#one,#two{
+	transition: all .2s ease-in-out;
+}
+
+#one:hover, #two:hover{
+	transform: scale(1.1);
+}
+
+.programs-class{
+	background-color: rgba(249, 249, 249, 0.6);
+}
+
+#headItem, .headItem{
+	text-align: center;
+}
+
+#intro-container, .intro-container{
+	display: flex;
+	justify-content: center;
+}
+
+#intro, .intro{
+	width:60%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+#app-div{
+	text-align: center;
+	background-color: red;
+}
+
+#contact-div{
+	display: flex;
+	text-align: center;
+	justify-content:center;
+}
+
+#try-container{
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	text-align: center;
+	font-size: 55px;
+	padding: 10px 20px 20px 20px;
+
+}
+
+#contact-container{
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: center; 
+}
+
+#one, #two{
+	width: 300px;
+  	text-align:center;
+  	margin:10px;
+  	-webkit-box-shadow: 2px 2px 26px -6px rgba(115,115,115,1);
+	-moz-box-shadow: 2px 2px 26px -6px rgba(115,115,115,1);
+	box-shadow: 2px 2px 26px -6px rgba(115,115,115,1);
+}
+
+.icon{
+	display: flex;
+	font-size:50px;
+	padding: 0px 20px 20px 20px;
+
+}
+
+.noUnderline{
+	text-decoration: none;
+	color: black;
+}
+
+.noUnderline:hover{
+	text-decoration: none;
+	color: rgb(67, 171, 190);
+}
+
+#programs{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.noDot{
+	list-style-type: none;
+	padding: 0px;
+	font-size: 25px;
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
+}
+
+#education{
+	background-image: url("/Users/Kevin/Desktop/website/images/apple-blank-business-442574.jpg");
+	background-size: cover;
+}
