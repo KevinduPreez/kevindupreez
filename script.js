@@ -75,7 +75,7 @@ $(document).ready(function(){
 	//END OF SCROLL FUNCTION 
 
 	//PARALAX EFFECT
-   	if ($(window).width() > 960) {
+   	if ($(window).width() > 1026) {
    		$("#programs-container, #jumbotron").css({"background-size": "140%"});
    		$(window).scroll(function() {
 			var x = $(this).scrollTop();
