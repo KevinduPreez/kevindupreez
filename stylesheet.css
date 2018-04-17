@@ -68,7 +68,7 @@ p{
 	align-items: center;
 	color: black;
 	text-align: center;
-	background-image: url(https://kevindupreez.github.io/kevindupreez/images/titleImage.png);
+	background-image: url(https://kevindupreez.github.io/kevindupreez/images/HeaderImage.png);
 	/*background-size: cover;*/
 	height: 100vh;
 }
@@ -222,6 +222,7 @@ th{
 }
 
 #education{
+	background-size: 120%;
 	background-image: url(https://kevindupreez.github.io/kevindupreez/images/apple-blank-business-442574.jpg);
 	background-size: cover;
 }
