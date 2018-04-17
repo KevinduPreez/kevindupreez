@@ -73,6 +73,11 @@ $(document).ready(function(){
     	}, 1000);
 	});
 	//END OF SCROLL FUNCTION 
+	
+	//PHONE NUMBER DIV CLICK
+	$("#number").on('click', function(){
+		alert("Phone: 0407187766")
+	});
 
 	//PARALAX EFFECT
    	if ($(window).width() > 1026) {
