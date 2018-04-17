@@ -84,7 +84,7 @@ $(document).ready(function(){
    		$("#programs-container, #jumbotron").css({"background-size": "140%"});
    		$(window).scroll(function() {
 			var x = $(this).scrollTop();
-			$("#programs-container, #jumbotron, #education").css('background-position', '0% ' + parseInt(+x / -12) + 'px');
+			$("#programs-container, #jumbotron, #education").css('background-position', '0% ' + parseInt(+x / 1.5) + 'px');
 		});
    	}else{
    		$("#programs-container, #jumbotron, #education").css({"background-size": "cover"});
