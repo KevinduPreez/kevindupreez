@@ -78,8 +78,10 @@ $(document).ready(function(){
 	$("#number").on('click', function(){
 		alert("Phone: 0407187766")
 	});
-
-	//PARALAX EFFECT
+	
+	/*
+		// PARALLAX STUTTERS ON SAFARI - WORKING ON SOLUTION
+	//PARALLAX EFFECT
    	if ($(window).width() > 1026) {
    		$("#programs-container, #jumbotron").css({"background-size": "140%"});
    		$(window).scroll(function() {
@@ -89,6 +91,6 @@ $(document).ready(function(){
    	}else{
    		$("#programs-container, #jumbotron, #education").css({"background-size": "cover"});
    	}
-	
+	*/ 
 
 })
