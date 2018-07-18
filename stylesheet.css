@@ -75,7 +75,7 @@ p{
 	color: black;
 	text-align: center;
 	background-image: url(https://kevindupreez.github.io/kevindupreez/images/HeaderImage.jpg);
-	/*background-size: cover;*/
+	background-size: cover;
 	height: 100vh;
 }
 
