@@ -109,8 +109,9 @@ p{
 }
 
 #programs-container{
+	display:flex;
 	text-align: center;
-
+	justify-content:center;
 	background-image: url(https://kevindupreez.github.io/kevindupreez/images/code-coding-computer-574073.jpg); 
 	background-size:cover; 
 	height: 100vh;
