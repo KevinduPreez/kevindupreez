@@ -52,11 +52,12 @@ $(document).ready(function(){
     		scrollTop: $("#contact-div").offset().top
     	}, 1000);
 	});
+	/*
 	$('#menuJudge').on('click', function(){
 		$('html, body').animate({
     		scrollTop: $("#contact-div").offset().top
     	}, 1000);
-	});
+	}); */
 	$('#menuAbout').on('click', function(){
 		$('html, body').animate({
     		scrollTop: $("#headItem").offset().top
