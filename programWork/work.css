@@ -4,6 +4,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
+a{
+    text-decoration: none !important; /*Because fuck that blue link bullshit*/
+    color: black !important;
+}
+
+
 #button-wrapper{
     display: flex;
     justify-content: flex-start;
@@ -11,14 +17,18 @@
     position:fixed;
     z-index: 1;
     text-align: center;
+    color: black;
 }
 
 #home-button{
-    margin: 1em;
-    width: 3%;
-    justify-content: center;
+    background-color: rgba(67, 171, 190, 0.55);
+    
+    width: 60px;
+    justify-content: flex-start;
+    padding: 5px;
+    position: absolute;
     display: flex;
-    border-radius: 10px;
+
 }
 
 .flex-grid {
@@ -52,7 +62,7 @@
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease;
 
 }
 
@@ -95,9 +105,8 @@
     .title {
         font-size: 20px;
     }
-    #image0,
-    #image1,
-    #image2 {
+    .imageClass {
+        padding: 50px 15px 0px 15px;
         height: 100px;
         display: none;
     }
