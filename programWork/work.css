@@ -4,6 +4,25 @@
   font-family: 'Raleway', sans-serif;
 }
 
+#button-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 5px;
+    position:fixed;
+    z-index: 1;
+    text-align: center;
+}
+
+#home-button{
+    margin: 1em;
+    width: 3%;
+    height: 3%;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
