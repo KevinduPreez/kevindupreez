@@ -7,6 +7,12 @@
     * {
         font-family: 'helvetica', sans-serif;
     }
+	
+	#heading-container{
+		width: 100%;
+	}
+	
+
 }
 
 p{

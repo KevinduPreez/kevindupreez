@@ -94,6 +94,10 @@ a {
     font-size: 30px;
 }
 
+.linke-clicker{
+    display: none;
+}
+
 
 @media only screen and (max-width: 900px) {
     .flex-grid {
